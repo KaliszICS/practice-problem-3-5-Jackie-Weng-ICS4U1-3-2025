@@ -66,7 +66,7 @@ public class PracticeProblem {
 		}
 
 		
-		int right = noOfPathsHelper(patharr2, row, col + 1);
+		int right = noOfPathsHelper(patharr2, row, col + 1); //
 		int nor = noOfPathsHelper(patharr2, row - 1, col); //nor is meant to be north but is too long
 		return nor + right;
 
